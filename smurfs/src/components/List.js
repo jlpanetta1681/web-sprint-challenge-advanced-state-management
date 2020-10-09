@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import { fetchSmurfs } from '../store/actions/index.js';
 
 const List = (props) => {
-	useEffect((props) => {
+	useEffect(() => {
 		props.fetchSmurfs();
 	}, []);
 

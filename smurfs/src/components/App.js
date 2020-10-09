@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div className="App">
       <Form/>
-      <List/>
+      <List /> 
     </div>
   );
 };
