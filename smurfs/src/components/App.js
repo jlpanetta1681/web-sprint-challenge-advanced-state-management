@@ -6,8 +6,14 @@ import "./App.css";
 const App = () => {
   return (
     <div className="App">
+    <div className="formContainer">
       <Form/>
+    </div>
+
+      <div className="smurfsList">
       <List /> 
+    </div>
+
     </div>
   );
 };

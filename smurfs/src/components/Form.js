@@ -28,7 +28,7 @@ const Form = props => {
     return (
         <form onSubmit={handleSubmit}>
 
-            <h1>Smurfs Willage</h1>
+            <h1>Smurf-Ville</h1>
 
 
             <label>

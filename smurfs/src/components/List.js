@@ -10,7 +10,7 @@ const List = (props) => {
 
 	return (
 		<div className="List">
-			<h3>Smurf List</h3>
+			<h3>Smurf-Ville Towne Charter</h3>
 			{props.isLoading && <h3>Loading smurf data...</h3>}
 			{props.error && <p className="error">{props.error}</p>}
 			{props.smurfs.length > 0 &&
