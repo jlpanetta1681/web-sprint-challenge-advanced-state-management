@@ -10,13 +10,19 @@ const List = (props) => {
 
 	return (
 		<div className="List">
+		<div className="listTitle">
 			<h3>Smurf-Ville Towne Charter</h3>
+		</div>
+			<div>
+			
+
 			{props.isLoading && <h3>Loading smurf data...</h3>}
 			{props.error && <p className="error">{props.error}</p>}
 			{props.smurfs.length > 0 &&
 				props.smurfs.map((smurf) => (
 					<Smurf key={smurf.id} smurf={smurf} />
 				))}
+			</div>
 		</div>
 	);
 };

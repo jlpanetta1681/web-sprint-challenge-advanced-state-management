@@ -27,8 +27,8 @@ const Form = props => {
 
     return (
         <form onSubmit={handleSubmit}>
-
-            <h1>Smurf-Ville</h1>
+    
+            
 
 
             <label>
